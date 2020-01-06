@@ -1,0 +1,30 @@
+h2
+{
+	text-align: center;
+	/*you cannot change the color here as in html file inline css is in use*/
+	
+}
+body,html
+{
+	background-image:url(https://www.webfx.com/blog/images/assets/cdn.sixrevisions.com/0431-02_responsive_background_demo_ss.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	/* Background image doesn't tile */
+	background-position: center center;
+	/* Background image is centered vertically and horizontally at all times */
+	/*https://www.webfx.com/blog/web-design/responsive-background-image/*//* refer this site for more related properties*/
+	background-attachment: fixed;
+	height:100%;
+	width:100%;
+}
+#div1
+{
+	text-align: center;
+}
+h1{
+	color: white;
+}
+.clear
+{
+	text-align: center;
+}
